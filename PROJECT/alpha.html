@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>알파실 관리 시스템</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="default_menu.css">
+</head>
+<body>
+<br>
+	<div id="top">
+		<a href="alpha.html"> <img src="image/alpha.png" width="280"
+			height="50" alt="컴퓨터공학과 알파실" title="컴퓨터공학과 알파실"></a>
+	<iframe src="login_menu.jsp" style="width:250px; height:32.5px; border:0" scrolling = "no"></iframe>
+			<img src="image/seat_no.png" width="140" height="50">
+			
+		<button type="button" class="button_other" onclick="location.href='find_id.jsp'">ID 찾기</button>
+		<button type="button" class="button_other" onclick="location.href='join.jsp'">회원가입</button>
+		<button type="button" class="button_other" onclick="location.href='withdraw.jsp'">탈퇴</button>
+		<button type="button"  class="button_other" onclick="location.href='alpha.html'">HOME</button>
+		<button type="button"  class="button_other" onclick="location.href='http://www.dongguk.edu/'">DGU</button>
+	</div>
+
+	<div class="menubar">
+		<center>
+			<ul>
+				<li><a href="notice.jsp">공지사항</a></li>
+				<li><a href="Q&A.jsp">커뮤니티</a>
+					<ul>
+						<li><a href="seat.jsp">좌석예약</a></li>
+						<li><a href="caution.jsp">경고자목록</a></li>
+						<li><a href="lost&found.jsp">분실물 센터</a></li>
+						<li><a href="Q&A.jsp">Q&A</a></li>
+					</ul></li>
+				<li><a href="info.html">안내</a></li>
+			</ul>
+			&nbsp;<img src="image/computer.jpg" align="middle" width="1000"
+				height="250" alt="사진">
+				<br>
+		</center>
+	</div>
+
+	<div id="middle2">
+		<center>
+		<br>
+			<a href="seat.jsp"> <img src="image/좌석예약.png" align="middle" width="120" height="80" alt="좌석예약"></a>
+			<a href="leaveseat_frommain.jsp"><img src="image/퇴실하기.png" align="middle" width="120" height="80" alt="퇴실하기"></a>
+			<a href="lost&found.jsp"><img src="image/분실물센터.png" align="middle" width="120" height="80" alt="분실물센터"></a>
+			<a href="Q&A.jsp"><img src="image/qna.png" align="middle" width="120" height="80" alt="Q&A"></a>
+			<a href="caution.jsp"><img src="image/경고자목록.png" align="middle" width="120" height="80" alt="경고자목록"></a>
+		</center>
+		<br><br>
+	</div>
+
+
+<br>
+	<div id="bottom">
+			<iframe src="notice_frame.jsp" frameborder="0" width="400" height="250" scrolling="no"></iframe>
+			<img src="image/seat_no.png" width="50">
+			<iframe src="seat_frame.jsp" frameborder="0" width="400" height="250" scrolling="no"></iframe>
+			
+	</div>
+	
+	<div id="underbar"d>
+	<img id="logo_white" src="image/logo_white.png"><font color="white" size="2.5"><br><br>&nbsp;&nbsp;&nbsp;서울특별시 중구 필동로 1길 30(우 04620))<br>&nbsp;&nbsp;&nbsp;Copyright ⓒ 2018 BY DONGGUK UNIVERSITY ALL RIGHTS RESERVED.</font></div>
+</body>
+</html>
